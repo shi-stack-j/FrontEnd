@@ -1,0 +1,84 @@
+<!-- 4. 📬 contact.html (Form Page)
+Use Tags:
+<form>, <input>, <textarea>, <label>, <select>, <option>, <fieldset>, <legend>, <button>, <meter>, <progress>
+Content Ideas:
+Contact form
+Email, name, message fields
+Dropdown to select topic
+Progress bar (like "Form completed: 80%") -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr/>
+    <header><h1>Contact Form :- </h1></header>
+    <hr/>
+    <main>
+        <form>
+            <div>
+                <label for="name">
+                    <pre><big><b>Name :-</b></big>     <input type="text" placeholder="Enter Your name " id="name" required></pre> 
+               </label>
+            </div>
+            <div>
+                <label for="email">
+                    <pre><big><b>Email :-</b></big>    <input type="email" placeholder="Enter Your Email" id="email" required></pre> 
+               </label>
+            </div>
+            <div>
+                <pre><b>Purpose :-</b> 
+              <textarea placeholder="Enter Message" cols="40" rows="5" required></textarea>
+                </pre>
+            </div>
+            <div>
+                <pre><b>Message :-</b> 
+              <textarea placeholder="Enter Message" cols="40" rows="5" required></textarea>
+                </pre>
+            </div>
+            <div>
+                <pre><b>Suggesstion :-</b> 
+              <textarea placeholder="Enter Message" cols="40" rows="5" required></textarea>
+                </pre>
+            </div>
+            <hr/>
+            <div>
+                <pre><b><big>Who Are You :- </big></b>
+                <label for="r1">
+                <b> Student </b><input type="radio" id="r1" value="Student" class="type" name="type"></label> || <label for="r2"><b>Teacher</b> <input type="radio" id="r2" value="Teacher" class="type" name="type"> || </label><label for="r3"> <b>Coder</b><input type="radio" id="r3" value="Coder" class="type" name="type"> </label></pre>
+                 
+            </div>
+            <hr>
+            <div>
+                <pre><b>Select Your City :- </b>    <select name="Country">
+                        <option value="IND" selected>INDIA</option>
+                        <option value="USA">USA</option>
+                        <option value="PAK">PAK</option>
+                        <option value="CHINA">CHINA</option>
+                        <option value="RUSIA">RUSSIA</option> 
+                    </select>
+                <label for="submit">
+<b>Click to submmit :-</b>     <button type="submit" id ="submit">Submit </button>
+                </label><label for="reset">
+<b>Click to reset :-</b>       <button type="reset" id ="reset">Reset</button>
+                 </label>
+                </pre>
+            
+            </div>
+            <hr>
+
+            
+        </form>
+
+    </main>
+    <footer>
+        <pre><b>Thanks For visiting us !!!</b><br><br><b>FeedBack :-</b><br><br>            <textarea placeholder="Provide your feedback" cols="40" rows="4"></textarea><br><br><b>&copy; 2025 Shivam’s Website</b>
+        </pre>
+        
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> <!-- Defines character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Mobile responsive view -->
+  <title>HTML Final Page</title>
+  <link rel="stylesheet" href="style.css" /> <!-- External CSS file -->
+</head>
+<body>
+
+  <!-- Header section with navigation -->
+  <header>
+    <h1>Welcome to Shivam's WebPage</h1>
+    <nav> <!-- Navigation menu -->
+      <a href="#about">About</a> |
+      <a href="#form">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+
+    <!-- Section with article and aside -->
+    <section id="about">
+      <article> <!-- Self-contained content like blog -->
+        <h2>About HTML</h2>
+        <p>HTML stands for <abbr title="HyperText Markup Language">HTML</abbr> and it is the backbone of the web.</p>
+        <p>This is a <mark>highlighted</mark> word and <code>console.log('Hello')</code> is code.</p>
+        <p>Water is written as H<sub>2</sub>O and Einstein’s formula is E = mc<sup>2</sup>.</p>
+        <p><b>Bold</b>, <i>Italic</i>, <u>Underline</u>, <small>Small</small>, <big>Big</big></p>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
+        <pre>
+          This is preformatted
+              text with spacing.
+        </pre>
+      </article>
+
+      <aside> <!-- Side content -->
+        <h3>Quick Links</h3>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </aside>
+    </section>
+
+    <hr /> <!-- Horizontal line -->
+
+    <!-- Ordered and unordered lists -->
+    <section>
+      <h2>Skills List</h2>
+      <ol type="A" start="2" reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+
+      <ul>
+        <li>Responsive Design</li>
+        <li>SEO Friendly</li>
+      </ul>
+    </section>
+
+    <!-- Table showing user data -->
+    <section>
+      <h2>User Table</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Shivam</td>
+          <td>20</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Form example -->
+    <section id="form">
+      <h2>Contact Form</h2>
+      <form action="/submit" method="post">
+        <fieldset>
+          <legend>Personal Info</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name" />
+
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="example@gmail.com" />
+
+          <br /><br />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" cols="30" placeholder="Write something..."></textarea>
+
+          <br /><br />
+
+          <label for="course">Course:</label>
+          <select id="course" name="course">
+            <option value="java" selected>Java</option>
+            <option value="python">Python</option>
+          </select>
+
+          <br /><br />
+
+          <input type="submit" value="Send" />
+          <input type="reset" value="Clear" />
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Progress and meter -->
+    <section>
+      <h2>Progress</h2>
+      <p>Upload Progress:</p>
+      <progress value="60" max="100"></progress>
+
+      <p>Skill Level:</p>
+      <meter value="0.8">80%</meter>
+    </section>
+
+    <!-- Details and summary -->
+    <details>
+      <summary>Click to read more</summary>
+      <p>This content was hidden before clicking.</p>
+    </details>
+
+    <!-- Embedded iframe -->
+    <h2>Google Embed</h2>
+    <iframe src="https://www.google.com" width="400" height="200" title="Google Iframe" loading="lazy"></iframe>
+
+    <!-- Video section -->
+    <h2>Sample Video</h2>
+    <video controls width="400" poster="thumbnail.jpg">
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2025 Shivam’s Website</p>
+  </footer>
+
+  <!-- Script Tag for JavaScript -->
+  <script>
+    console.log("Page Loaded!");
+  </script>
+
+</body>
+</html>
