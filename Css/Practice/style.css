@@ -1,0 +1,29 @@
+.box{
+    display: inline-block;
+    height:100px;
+    border:2px solid black;
+    width: 100px;
+    background-color: red;
+    margin:10px;
+    text-align: center;
+}
+#box1{
+    background-color: aqua;
+    position: fixed;
+    top:0px;
+    right:0px
+}
+#box2{
+    background-color: blue;
+    position:sticky;
+    top: 0px;
+}
+#box3{
+    background-color: pink;
+    position: absolute;
+}
+#box4{
+    background-color: orange;
+    position:static;
+
+}

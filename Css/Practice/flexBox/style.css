@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    border: 2px solid rgb(121, 9, 9);
+    margin: 5px;
+    /* This used to set the element as flexbox */
+    display: flex;
+    /* This used to set the direction of arrangement of items */
+    flex-direction: column-reverse; /* row -> L->R, row-reverse - > R->L , column -> T->B , column-reverse -> B->T */
+
+}
+#box1{
+    background-color: rgba(201, 49, 59, 0.781);
+}
+#box2{
+    background-color: rgb(16, 71, 154);
+}
+#box3{
+    background-color: rgba(40, 94, 219, 0.842);
+}
+#box4{
+    background-color: blueviolet;
+}
+#box5{
+    background-color: chartreuse;
+}
+#nav{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: blueviolet;
+    align-items: center;
+
+}
+a{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    height: 20px;
+    width: 60px;
+    
+}
+ul{
+    list-style-type: none;
+}
+#div1{
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top:50px ;
+    background-color: aqua;
+}
+#div2{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+

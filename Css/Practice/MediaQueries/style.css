@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+#MainDiv{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    text-align: center;
+    margin-top: 20vh;
+    background-color:cadetblue;
+}
+/* Here the color of the div will change to green */
+/* On screen width less than 300px */
+@media(max-width:300px){
+    #MainDiv{
+        background-color: green;
+    }
+}
+/* This will change the box color to pink  */
+/* When width is b/w 300px & 400px */
+@media(min-width:300px) and (max-width:400px){
+    #MainDiv{
+        background-color: pink;
+    }
+}
+/* This will change color of the div to red  */
+/* When width os b/w 400px and 600px */
+@media(min-width:400px)and(max-width:600px){
+    #MainDiv{
+        background-color: red;
+    }
+}
+/* This will chage the color of the div to blue */
+/* When width is greator then 600px */
+@media(min-width:600px){
+    #MainDiv{
+        background-color: blue;
+    }
+}

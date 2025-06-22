@@ -1,0 +1,18 @@
+nav{
+    background-color: #0f1111;
+    color:white;
+    height: 60px;
+}
+#id1{
+    color: yellow;
+    font-size: 25px;
+}
+#id6{
+    background-color: #f08804;
+}
+#id2,#id3,#id4,#id5{
+    margin: 0 0 0 200px;
+    text-decoration: none;
+    color:white;
+}
+
